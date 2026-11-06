@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#090a0d">
+    <meta name="description" content="Browse now showing movies and choose a film for your next cinema night.">
+    <title>Seatix — Now Showing</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<header class="site-header">
+    <a class="brand" href="/" aria-label="Seatix home">
+        <span class="brand-mark">S</span>
+        <span>seatix<span class="brand-period">.</span></span>
+    </a>
+    <nav class="main-nav" aria-label="Main navigation">
+        <a class="nav-link active" href="/">Home</a>
+        <a class="nav-link" href="/auditorium.html">Explore auditorium</a>
+        <a class="nav-link" href="/my-bookings.html">My bookings</a>
+    </nav>
+    <div class="header-actions">
+        <span class="city-label"><span class="status-dot"></span> Bengaluru</span>
+        <button class="avatar-button" type="button" aria-label="Guest account">G</button>
+    </div>
+</header>
+
+<main class="page-shell">
+    <section class="intro-row" aria-labelledby="page-title">
+        <div>
+            <p class="eyebrow"><span class="eyebrow-line"></span> NOW SHOWING</p>
+            <h1 id="page-title">Choose your next <span>movie.</span></h1>
+            <p class="intro-copy">Pick a film to explore its auditorium and available showtimes.</p>
+        </div>
+    </section>
+
+    <section class="movie-section" id="movies" aria-labelledby="movies-heading">
+        <div class="section-heading">
+            <div>
+                <p class="eyebrow muted">ON THE BIG SCREEN</p>
+                <h2 id="movies-heading">Now showing</h2>
+            </div>
+            <a class="section-note" href="/auditorium.html">Explore auditorium <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="movie-shelf home-movie-shelf" aria-label="Choose a movie">
+            <a class="movie-card home-movie-card" href="/auditorium.html?movie=interstellar">
+                <img class="movie-poster home-movie-poster" src="/interstellar.png" alt="Interstellar poster">
+                <span class="movie-copy home-movie-copy"><span class="movie-title home-movie-title">Interstellar</span><span class="movie-genre">Sci-fi · Adventure</span><span class="movie-rating">★ 8.7 · 4K</span></span>
+            </a>
+            <a class="movie-card home-movie-card" href="/auditorium.html?movie=dark-knight">
+                <img class="movie-poster home-movie-poster" src="/dark-knight.png" alt="The Dark Knight poster">
+                <span class="movie-copy home-movie-copy"><span class="movie-title home-movie-title">The Dark Knight</span><span class="movie-genre">Action · Crime</span><span class="movie-rating">★ 9.0 · 4K</span></span>
+            </a>
+            <a class="movie-card home-movie-card" href="/auditorium.html?movie=resident-evil">
+                <img class="movie-poster home-movie-poster" src="/resident-evil.png" alt="Resident Evil poster">
+                <span class="movie-copy home-movie-copy"><span class="movie-title home-movie-title">Resident Evil</span><span class="movie-genre">Action · Horror</span><span class="movie-rating">★ 7.4 · 4K</span></span>
+            </a>
+            <a class="movie-card home-movie-card" href="/auditorium.html?movie=jailer2">
+                <img class="movie-poster home-movie-poster" src="/jailer2.png" alt="Jailer 2 poster">
+                <span class="movie-copy home-movie-copy"><span class="movie-title home-movie-title">Jailer 2</span><span class="movie-genre">Action · Drama</span><span class="movie-rating">★ 8.1 · 4K</span></span>
+            </a>
+            <a class="movie-card home-movie-card" href="/auditorium.html?movie=baththa">
+                <img class="movie-poster home-movie-poster" src="/baththa.png" alt="Baththa poster">
+                <span class="movie-copy home-movie-copy"><span class="movie-title home-movie-title">Baththa</span><span class="movie-genre">Action · Romance</span><span class="movie-rating">★ 7.2 · 4K</span></span>
+            </a>
+        </div>
+    </section>
+</main>
+<footer class="site-footer page-shell">
+    <span>SEATIX <span class="brand-period">·</span> CINEMA, REIMAGINED</span>
+    <span>Choose a film to see showtimes</span>
+</footer>
+</body>
+</html>

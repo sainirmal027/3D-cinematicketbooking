@@ -1,0 +1,47 @@
+[
+  {
+    "screenCode": "IMAX",
+    "screenName": "Screen 1 · IMAX",
+    "screenType": "IMAX",
+    "aspectRatio": 1.77778,
+    "wallColor": "#17110D",
+    "ceilingColor": "#090807",
+    "trimColor": "#6B3B16",
+    "accentColor": "#F3A63B",
+    "seatColor": "#171514",
+    "aisleLightColor": "#FFB64A",
+    "wallSlatCount": 24,
+    "ceilingStarCount": 240,
+    "ringLightCount": 2
+  },
+  {
+    "screenCode": "STANDARD_2",
+    "screenName": "Screen 2 · Standard",
+    "screenType": "STANDARD",
+    "aspectRatio": 2.35,
+    "wallColor": "#19130F",
+    "ceilingColor": "#0A0908",
+    "trimColor": "#70431E",
+    "accentColor": "#EFA23A",
+    "seatColor": "#1A1715",
+    "aisleLightColor": "#FFC05B",
+    "wallSlatCount": 20,
+    "ceilingStarCount": 180,
+    "ringLightCount": 2
+  },
+  {
+    "screenCode": "STANDARD_3",
+    "screenName": "Screen 3 · Orchestra",
+    "screenType": "STANDARD",
+    "aspectRatio": 2.35,
+    "wallColor": "#18120E",
+    "ceilingColor": "#080807",
+    "trimColor": "#75451D",
+    "accentColor": "#F2A641",
+    "seatColor": "#1A1715",
+    "aisleLightColor": "#FFB34C",
+    "wallSlatCount": 22,
+    "ceilingStarCount": 200,
+    "ringLightCount": 2
+  }
+]

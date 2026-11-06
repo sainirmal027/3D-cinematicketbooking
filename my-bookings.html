@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#090a0d">
+    <meta name="description" content="View bookings saved in this browser.">
+    <title>Seatix — My Bookings</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/booking-history.js" defer></script>
+    <script src="/my-bookings.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+    <a class="brand" href="/" aria-label="Seatix home">
+        <span class="brand-mark">S</span>
+        <span>seatix<span class="brand-period">.</span></span>
+    </a>
+    <nav class="main-nav" aria-label="Main navigation">
+        <a class="nav-link" href="/">Home</a>
+        <a class="nav-link" href="/auditorium.html">Explore auditorium</a>
+        <a class="nav-link active" href="/my-bookings.html">My bookings</a>
+    </nav>
+    <div class="header-actions">
+        <span class="city-label"><span class="status-dot"></span> Bengaluru</span>
+        <button class="avatar-button" type="button" aria-label="Guest account">G</button>
+    </div>
+</header>
+
+<main class="page-shell">
+    <section class="intro-row" aria-labelledby="page-title">
+        <div>
+            <p class="eyebrow"><span class="eyebrow-line"></span> YOUR SEATIX BOOKINGS</p>
+            <h1 id="page-title">Your movie <span>history.</span></h1>
+            <p class="intro-copy">Your bookings from this browser, in one place.</p>
+        </div>
+    </section>
+
+    <section class="booking-history-panel" aria-labelledby="booking-history-heading">
+        <h2 id="booking-history-heading">Booking history</h2>
+        <p class="booking-history-note">History is stored in this browser only. Phone numbers and email addresses aren’t included. Bookings made in another browser won’t appear here.</p>
+        <p class="booking-history-status" id="bookingHistoryStatus" role="status" aria-live="polite"></p>
+    </section>
+
+    <p class="booking-history-empty" id="bookingHistoryEmpty" role="status" hidden>No bookings have been saved in this browser yet.</p>
+    <section class="booking-results" id="bookingResults" aria-label="Saved bookings" hidden>
+        <div class="booking-record-list" id="bookingRecordList"></div>
+    </section>
+
+    <footer class="site-footer">
+        <span>SEATIX <span class="brand-period">·</span> CINEMA, REIMAGINED</span>
+        <span>Payments are simulated</span>
+    </footer>
+</main>
+</body>
+</html>
